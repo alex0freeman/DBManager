@@ -1,4 +1,4 @@
-﻿DBManager 0.1.0 (Alternative to TS6420 | TwinCAT Database Server)
+DBManager 0.1.0 (Alternative to TS6420 | TwinCAT Database Server)
 
 Fuctions APP
 ############
@@ -23,8 +23,8 @@ Twincat XAE rutime
 Usage
 ###########
 Database with DB(Database) stb(schema) 
-Download ADS librarie fron Beckhoff
-SET DATABASE IN:
+Download ADS library fron Beckhoff (https://infosys.beckhoff.com/content/1033/tcadscomlib/html/tcadscomlib_intro.htm#Windows_(x86/x64))
+SET DATABASE PARAMETERS IN:
 
         //SQL server parameters
         //Connection Npgsql
@@ -33,12 +33,15 @@ SET DATABASE IN:
         public string TableRT = "\"LiveData\"";
         public string TableACCU = "\"TableACCU\"";
 
-SET ADS NET ID:
+SET ADS NET ID of PLC:
 
         //PLC address
         public string netidplc = "192.168.202.134.1.1";
 
 Start App in PLC 
+
+
+
 
 
 
